@@ -89,12 +89,6 @@
 		<Unit filename="/cygdrive/d/gitRepos/module2ASD/HorokhovModule/main.cpp">
 			<Option target="HorokhovModule"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/gitRepos/module2ASD/HorokhovModule/second_task/Stack.cpp">
-			<Option target="HorokhovModule"/>
-		</Unit>
-		<Unit filename="/cygdrive/d/gitRepos/module2ASD/HorokhovModule/second_task/Stack.h">
-			<Option target="HorokhovModule"/>
-		</Unit>
 		<Unit filename="/cygdrive/d/gitRepos/module2ASD/HorokhovModule/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

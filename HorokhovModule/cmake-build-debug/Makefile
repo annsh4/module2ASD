@@ -177,33 +177,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-second_task/Stack.o: second_task/Stack.cpp.o
-
-.PHONY : second_task/Stack.o
-
-# target to build an object file
-second_task/Stack.cpp.o:
-	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.o
-.PHONY : second_task/Stack.cpp.o
-
-second_task/Stack.i: second_task/Stack.cpp.i
-
-.PHONY : second_task/Stack.i
-
-# target to preprocess a source file
-second_task/Stack.cpp.i:
-	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.i
-.PHONY : second_task/Stack.cpp.i
-
-second_task/Stack.s: second_task/Stack.cpp.s
-
-.PHONY : second_task/Stack.s
-
-# target to generate assembly for a file
-second_task/Stack.cpp.s:
-	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.s
-.PHONY : second_task/Stack.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +192,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... second_task/Stack.o"
-	@echo "... second_task/Stack.i"
-	@echo "... second_task/Stack.s"
 .PHONY : help
 
 

@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/first_task/BinaryTree.cpp" "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o"
   "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/main.cpp" "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles/HorokhovModule.dir/main.cpp.o"
-  "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/second_task/Stack.cpp" "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
