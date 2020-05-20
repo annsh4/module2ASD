@@ -50,8 +50,10 @@ public class Task1 {
         try {
             Scanner scanner = new Scanner(System.in);
             IntegerStack stack = new IntegerStack();
+            System.out.print("Количество операций ");
             int n = scanner.nextInt();
             for (int i = 0; i < n; i++) {
+                System.out.print("Опкод: ");
                 int command = scanner.nextInt();
                 switch (command) {
                     case 1:
@@ -66,6 +68,7 @@ public class Task1 {
                         break;
                 }
             }
+            System.out.println("Остаток в стеке: ");
             stack.print();
         } catch (InputMismatchException e) {
             System.out.println("Неверный формат входных данных");
