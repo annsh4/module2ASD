@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/HorokhovModule.dir/main.cpp.o CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o  -o HorokhovModule.exe -Wl,--out-implib,libHorokhovModule.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/HorokhovModule.dir/main.cpp.o CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.o  -o HorokhovModule.exe -Wl,--out-implib,libHorokhovModule.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

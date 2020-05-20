@@ -6,4 +6,8 @@ CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o: ../first_task/BinaryT
 
 CMakeFiles/HorokhovModule.dir/main.cpp.o: ../first_task/BinaryTree.h
 CMakeFiles/HorokhovModule.dir/main.cpp.o: ../main.cpp
+CMakeFiles/HorokhovModule.dir/main.cpp.o: ../second_task/Stack.h
+
+CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.o: ../second_task/Stack.cpp
+CMakeFiles/HorokhovModule.dir/second_task/Stack.cpp.o: ../second_task/Stack.h
 
