@@ -1,4 +1,4 @@
-
+//Блінов В-3
 #include <iostream>
 #include <clocale>
 
