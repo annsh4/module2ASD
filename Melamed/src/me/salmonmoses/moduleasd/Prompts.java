@@ -34,6 +34,7 @@ public class Prompts {
 	}
 
 	public static String promptLine(String prompt) {
+		System.out.print(prompt);
 		return input.nextLine();
 	}
 }

@@ -18,11 +18,23 @@ public class StackVM {
 //		}
 //	}
 
-	public void executeCommand(int[] args) throws UnsupportedCommandException {
+	public void executeCommand(int[] args) throws UnsupportedCommandException, WrongArgsNumberException {
 		switch (args[0]) {
-			case 1 -> stack.push(args[1]);
-			case 2 -> stack.pop();
-			case 3 -> maxValues.add(getMaxInStack());
+			case 1 -> {
+				if(args.length != 2) throw new WrongArgsNumberException();
+				stack.push(args[1]);
+			}
+			case 2 -> {
+				if(args.length != 1) throw new WrongArgsNumberException();
+				stack.pop();
+			}
+			case 3 -> {
+				if(args.length != 1) throw new WrongArgsNumberException();
+				int maxInStack = getMaxInStack();
+				if (maxInStack > -1) {
+					maxValues.add(maxInStack);
+				}
+			}
 			default -> throw new UnsupportedCommandException();
 		}
 	}
@@ -33,6 +45,9 @@ public class StackVM {
 
 	private int getMaxInStack() {
 		int[] array = stack.toArray();
+		if (array.length < 1) {
+			return -1;
+		}
 		int max = array[0];
 		for (int v : array) {
 			if (v > max) {

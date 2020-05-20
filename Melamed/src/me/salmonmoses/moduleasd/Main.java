@@ -6,6 +6,7 @@
 
 package me.salmonmoses.moduleasd;
 
+import me.salmonmoses.moduleasd.binarytree.Task2;
 import me.salmonmoses.moduleasd.stackvm.Task1;
 
 import java.util.Scanner;
@@ -15,9 +16,9 @@ public class Main {
     private Task[] tasks;
 
     public Main() {
-        tasks = new Task[1];
+        tasks = new Task[2];
         tasks[0] = new Task1(input);
-//        tasks[1] = new Task2(input);
+        tasks[1] = new Task2(input);
     }
 
     public static void main(String[] args) {
