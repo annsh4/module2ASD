@@ -44,10 +44,10 @@ RM = /cygdrive/c/Users/danii/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule
+CMAKE_SOURCE_DIR = /cygdrive/d/gitRepos/module2ASD/HorokhovModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/HorokhovModule.dir/all:
 	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/depend
 	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target HorokhovModule"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target HorokhovModule"
 .PHONY : CMakeFiles/HorokhovModule.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HorokhovModule.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HorokhovModule.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/HorokhovModule.dir/rule
 
 # Convenience name for target.

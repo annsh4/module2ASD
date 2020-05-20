@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule
+# Install script for directory: /cygdrive/d/gitRepos/module2ASD/HorokhovModule
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

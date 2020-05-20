@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o"
   "CMakeFiles/HorokhovModule.dir/main.cpp.o"
   "HorokhovModule.exe"
   "HorokhovModule.pdb"

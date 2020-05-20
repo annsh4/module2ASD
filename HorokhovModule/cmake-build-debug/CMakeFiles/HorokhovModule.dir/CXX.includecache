@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/gitRepos/module2ASD/HorokhovModule/first_task/BinaryTree.h
+iostream
+-
+
+/cygdrive/d/gitRepos/module2ASD/HorokhovModule/main.cpp
+iostream
+-
+first_task/BinaryTree.h
+/cygdrive/d/gitRepos/module2ASD/HorokhovModule/first_task/BinaryTree.h
+

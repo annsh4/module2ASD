@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/danii/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule
+CMAKE_SOURCE_DIR = /cygdrive/d/gitRepos/module2ASD/HorokhovModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HorokhovModule.dir/depend.make
@@ -59,28 +59,43 @@ include CMakeFiles/HorokhovModule.dir/flags.make
 
 CMakeFiles/HorokhovModule.dir/main.cpp.o: CMakeFiles/HorokhovModule.dir/flags.make
 CMakeFiles/HorokhovModule.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HorokhovModule.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HorokhovModule.dir/main.cpp.o -c /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HorokhovModule.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HorokhovModule.dir/main.cpp.o -c /cygdrive/d/gitRepos/module2ASD/HorokhovModule/main.cpp
 
 CMakeFiles/HorokhovModule.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HorokhovModule.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/main.cpp > CMakeFiles/HorokhovModule.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/gitRepos/module2ASD/HorokhovModule/main.cpp > CMakeFiles/HorokhovModule.dir/main.cpp.i
 
 CMakeFiles/HorokhovModule.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HorokhovModule.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/main.cpp -o CMakeFiles/HorokhovModule.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/gitRepos/module2ASD/HorokhovModule/main.cpp -o CMakeFiles/HorokhovModule.dir/main.cpp.s
+
+CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o: CMakeFiles/HorokhovModule.dir/flags.make
+CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o: ../first_task/BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o -c /cygdrive/d/gitRepos/module2ASD/HorokhovModule/first_task/BinaryTree.cpp
+
+CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/gitRepos/module2ASD/HorokhovModule/first_task/BinaryTree.cpp > CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.i
+
+CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/gitRepos/module2ASD/HorokhovModule/first_task/BinaryTree.cpp -o CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.s
 
 # Object files for target HorokhovModule
 HorokhovModule_OBJECTS = \
-"CMakeFiles/HorokhovModule.dir/main.cpp.o"
+"CMakeFiles/HorokhovModule.dir/main.cpp.o" \
+"CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o"
 
 # External object files for target HorokhovModule
 HorokhovModule_EXTERNAL_OBJECTS =
 
 HorokhovModule.exe: CMakeFiles/HorokhovModule.dir/main.cpp.o
+HorokhovModule.exe: CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o
 HorokhovModule.exe: CMakeFiles/HorokhovModule.dir/build.make
 HorokhovModule.exe: CMakeFiles/HorokhovModule.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HorokhovModule.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HorokhovModule.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HorokhovModule.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +108,6 @@ CMakeFiles/HorokhovModule.dir/clean:
 .PHONY : CMakeFiles/HorokhovModule.dir/clean
 
 CMakeFiles/HorokhovModule.dir/depend:
-	cd /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles/HorokhovModule.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/gitRepos/module2ASD/HorokhovModule /cygdrive/d/gitRepos/module2ASD/HorokhovModule /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles/HorokhovModule.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HorokhovModule.dir/depend
 

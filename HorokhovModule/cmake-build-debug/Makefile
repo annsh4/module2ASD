@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/danii/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule
+CMAKE_SOURCE_DIR = /cygdrive/d/gitRepos/module2ASD/HorokhovModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/danii/CLionProjects/moduleASD/HorokhovModule/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/gitRepos/module2ASD/HorokhovModule/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ HorokhovModule/fast:
 	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/build
 .PHONY : HorokhovModule/fast
 
+first_task/BinaryTree.o: first_task/BinaryTree.cpp.o
+
+.PHONY : first_task/BinaryTree.o
+
+# target to build an object file
+first_task/BinaryTree.cpp.o:
+	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.o
+.PHONY : first_task/BinaryTree.cpp.o
+
+first_task/BinaryTree.i: first_task/BinaryTree.cpp.i
+
+.PHONY : first_task/BinaryTree.i
+
+# target to preprocess a source file
+first_task/BinaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.i
+.PHONY : first_task/BinaryTree.cpp.i
+
+first_task/BinaryTree.s: first_task/BinaryTree.cpp.s
+
+.PHONY : first_task/BinaryTree.s
+
+# target to generate assembly for a file
+first_task/BinaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles/HorokhovModule.dir/build.make CMakeFiles/HorokhovModule.dir/first_task/BinaryTree.cpp.s
+.PHONY : first_task/BinaryTree.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... HorokhovModule"
 	@echo "... edit_cache"
+	@echo "... first_task/BinaryTree.o"
+	@echo "... first_task/BinaryTree.i"
+	@echo "... first_task/BinaryTree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
