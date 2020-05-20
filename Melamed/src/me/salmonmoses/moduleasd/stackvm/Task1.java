@@ -3,7 +3,6 @@ package me.salmonmoses.moduleasd.stackvm;
 import me.salmonmoses.moduleasd.AnswerOutOfBoundsException;
 import me.salmonmoses.moduleasd.Prompts;
 import me.salmonmoses.moduleasd.Task;
-import me.salmonmoses.moduleasd.UnsupportedCommandException;
 
 import java.util.Arrays;
 import java.util.Scanner;

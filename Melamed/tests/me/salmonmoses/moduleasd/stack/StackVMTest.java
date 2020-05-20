@@ -1,6 +1,6 @@
 package me.salmonmoses.moduleasd.stack;
 
-import me.salmonmoses.moduleasd.UnsupportedCommandException;
+import me.salmonmoses.moduleasd.stackvm.UnsupportedCommandException;
 import me.salmonmoses.moduleasd.stackvm.StackVM;
 import me.salmonmoses.moduleasd.stackvm.WrongArgsNumberException;
 import org.junit.jupiter.api.Test;

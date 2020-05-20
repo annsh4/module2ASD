@@ -1,7 +1,5 @@
 package me.salmonmoses.moduleasd.stackvm;
 
-import me.salmonmoses.moduleasd.UnsupportedCommandException;
-
 import java.util.ArrayList;
 
 public class StackVM {
