@@ -16,7 +16,9 @@ public class BinaryTree {
 	/* query ::= cmd (' ' cmd)*
 	 *  cmd ::= 'l' | 'r' */
 	public Optional<Integer> query(String query) {
-		if(this.root == null) return Optional.empty();
+		if (this.root == null) {
+			return Optional.empty();
+		}
 		Node current = this.root;
 		String[] cmds = query.split(" ");
 		for (String cmd : cmds) {
@@ -35,6 +37,14 @@ public class BinaryTree {
 			}
 		}
 		return Optional.of(current.getData());
+	}
+
+	public Optional<Integer> lcaFor(int a, int b) {
+		if (this.root == null) {
+			return Optional.empty();
+		} else {
+			return this.root.lcaFor(a, b);
+		}
 	}
 
 	private static class Node {
@@ -68,6 +78,34 @@ public class BinaryTree {
 					this.right.add(val);
 				}
 			}
+		}
+
+		public Optional<Integer> lcaFor(int a, int b) {
+			if (this.getData() == a || this.getData() == b) {
+				return Optional.of(this.getData());
+			}
+			Optional<Integer> leftLca;
+			if (this.getLeft() != null) {
+				leftLca = this.getLeft().lcaFor(a, b);
+			} else {
+				leftLca = Optional.empty();
+			}
+			Optional<Integer> rightLca;
+			if (this.getRight() != null) {
+				rightLca = this.getRight().lcaFor(a, b);
+			} else {
+				rightLca = Optional.empty();
+			}
+			if (leftLca.isPresent() && rightLca.isPresent()) {
+				return Optional.of(this.getData());
+			} else {
+				if (leftLca.isPresent()) {
+					return leftLca;
+				} else {
+					return rightLca;
+				}
+			}
+//			return Optional.empty();
 		}
 
 		public int getData() {

@@ -3,10 +3,8 @@ package me.salmonmoses.moduleasd.binarytree;
 import me.salmonmoses.moduleasd.AnswerOutOfBoundsException;
 import me.salmonmoses.moduleasd.Prompts;
 import me.salmonmoses.moduleasd.Task;
-import me.salmonmoses.moduleasd.UnsupportedCommandException;
-import me.salmonmoses.moduleasd.stackvm.StackVM;
 
-import java.util.Arrays;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class Task2 implements Task {
@@ -34,12 +32,19 @@ public class Task2 implements Task {
 			System.out.println("Please, write literally 1 number");
 			return;
 		}
-		System.out.println("Now, please, enter elements of the binary tree (they will be added in the order of inputting): ");
-		for(int i = 0; i < n; ++i) {
+		System.out.println("Now, please, enter elements of the binary tree (they will be added in the order of " +
+				                   "inputting): ");
+		for (int i = 0; i < n; ++i) {
 			tree.add(Prompts.promptInt("> "));
 		}
 		System.out.println("Now enter n1 and n2 to search their LCA: ");
 		int n1 = Prompts.promptInt("n1 = ");
 		int n2 = Prompts.promptInt("n2 = ");
+		Optional<Integer> lca = tree.lcaFor(n1, n2);
+		if (lca.isPresent()) {
+			System.out.println("LCA for " + n1 + " and " + n2 + " is " + lca.get());
+		} else {
+			System.out.println(n1 + " and " + n2 + " don't have LCA");
+		}
 	}
 }
