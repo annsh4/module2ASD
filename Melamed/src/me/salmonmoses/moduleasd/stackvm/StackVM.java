@@ -1,10 +1,12 @@
-package me.salmonmoses.moduleasd;
+package me.salmonmoses.moduleasd.stackvm;
+
+import me.salmonmoses.moduleasd.UnsupportedCommandException;
 
 import java.util.ArrayList;
 
 public class StackVM {
-	private final Stack stack = new Stack();
-	private final ArrayList<Integer> maxValues = new ArrayList<>();
+	private Stack stack = new Stack();
+	private ArrayList<Integer> maxValues = new ArrayList<>();
 
 //	public void execute(int[][] cmds) throws UnsupportedCommandException {
 //		for (int i = 0; i < cmds.length; ++i) {
@@ -42,5 +44,10 @@ public class StackVM {
 
 	public ArrayList<Integer> getMaxValues() {
 		return maxValues;
+	}
+
+	public void clear() {
+		stack = new Stack();
+		maxValues = new ArrayList<>();
 	}
 }

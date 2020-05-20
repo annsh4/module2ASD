@@ -1,5 +1,6 @@
-package me.salmonmoses.moduleasd;
+package me.salmonmoses.moduleasd.stack;
 
+import me.salmonmoses.moduleasd.stackvm.Stack;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;

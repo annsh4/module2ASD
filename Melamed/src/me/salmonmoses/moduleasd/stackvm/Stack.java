@@ -1,4 +1,4 @@
-package me.salmonmoses.moduleasd;
+package me.salmonmoses.moduleasd.stackvm;
 
 import java.util.ArrayList;
 import java.util.Optional;

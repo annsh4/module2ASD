@@ -1,5 +1,7 @@
-package me.salmonmoses.moduleasd;
+package me.salmonmoses.moduleasd.stack;
 
+import me.salmonmoses.moduleasd.UnsupportedCommandException;
+import me.salmonmoses.moduleasd.stackvm.StackVM;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
