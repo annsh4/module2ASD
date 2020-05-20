@@ -93,6 +93,13 @@ int main() {
                     }
                 }
                 std::cout << "\nYour weight: " << weight1;
+
+                
+//                Print old stacks
+
+
+//                Print New stacks
+
 //                std::cout << "\nNew stacks: " << std::endl;
 //
 //                for(int i = 0; i < n1; i++){
