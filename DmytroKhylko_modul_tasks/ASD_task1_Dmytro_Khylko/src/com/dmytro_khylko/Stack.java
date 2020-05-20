@@ -62,13 +62,6 @@ public class Stack{
         System.out.println("");
     }
     public int getMaxElement(){
-//        if(Index >= 0 && Index < this.Size){
-//            Node current = head;
-//            for(int i = 0; i < Index; i++){
-//                current = current.next;
-//            }
-//            return current.number;
-//        }else return Integer.MIN_VALUE;
         Node current = this.tail;
         int maxValue = Integer.MIN_VALUE;
         for(int i = 0; i < this.Size; i++){
